@@ -1,0 +1,30 @@
+*{
+    font-family: sans-serif;
+}
+.mainpage{
+    text-align: center;
+    list-style-position: inside;
+}
+
+#main-title,
+b{
+    color: rgb(200,170,30);
+    font-weight: bold;
+    font-family: "Times New Roman";
+}
+
+h1{
+    font-size: 40px;
+}
+
+h2{
+    color: rgb(154, 113, 0);
+}
+
+.mainpage img{
+    width:250px;
+}
+
+img{
+    width:350px;
+}
