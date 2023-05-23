@@ -1,16 +1,32 @@
 *{
     font-family: sans-serif;
 }
-.mainpage{
+*{
     text-align: center;
     list-style-position: inside;
 }
+
+
 
 #main-title,
 b{
     color: rgb(200,170,30);
     font-weight: bold;
     font-family: "Times New Roman";
+}
+
+.mainlist{
+    margin: auto;
+    padding: auto;
+    width: 250px;
+}
+
+li{
+    text-align: left;
+}
+ul, ol{
+    border: 5px double rgb(200,170,30);
+    padding: 1em;
 }
 
 h1{
