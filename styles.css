@@ -1,3 +1,33 @@
+@keyframes slideinLeft{
+    0% {
+        transform: translateX(-100%);
+    }
+    50%{
+        transform: translateX(-60%);
+    }
+    100%{
+        transform: translateX(-100%);
+    }
+}
+
+.long-cat{
+    position: absolute;
+    left:0;
+    transform: translateX(-100%);
+    margin-top: -11em;
+    width: 300px;
+}
+
+.hover-in-left{
+    animation-name: slideinLeft;
+    animation-duration: 10s;
+    animation-timing-function: ease-in-out;
+    animation-delay: 0;
+    animation-iteration-count: infinite;
+    animation-direction: normal;
+    animation-fill-mode: none;
+}
+
 *{
     font-family: sans-serif;
 }
@@ -18,15 +48,27 @@ b{
 .mainlist{
     margin: auto;
     padding: auto;
-    width: 250px;
+    width: 20em;
 }
 
 li{
     text-align: left;
 }
 ul, ol{
+    box-sizing: border-box;
     border: 5px double rgb(200,170,30);
     padding: 1em;
+    width: 500px;
+    margin: auto;
+    text-align: center;
+}
+.mainul{
+    width: 20em;
+    margin: auto;
+}
+p{
+    width: 1000px;
+    margin: auto;
 }
 
 h1{
@@ -38,7 +80,7 @@ h2{
 }
 
 .mainpage img{
-    width:250px;
+    width:15em;
 }
 
 img{
